@@ -5,7 +5,6 @@ SFT::SFT(QObject *parent) : QObject(parent)
 {
 
 }
-
 QVector<wave> SFT::fourier(QVector<float> data,int freq)
 {
     qDebug()<<data;
